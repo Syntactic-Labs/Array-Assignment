@@ -19,8 +19,8 @@ namespace Array_Assignment
                 if (nbr2 < lowest) lowest = nbr2;
                 sum = sum + nbr2;
             }
-            var max = sum - highest;
-            var min = sum - lowest;
+            var min = sum - highest;
+            var max = sum - lowest;
 
             Console.WriteLine($"The largest sum is {max} and the smallest sum is {min}");
             
